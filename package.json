@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "node bin/www",
+    "start": "app.js",
     "prestart": "npm install",
     "pretest": "npm install",
     "test": "cross-env PORT=8001 ./node_modules/.bin/mocha --timeout 5000 --reporter mocha-multi-reporters --reporter-options configFile=config.json --exit"
