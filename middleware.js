@@ -1,3 +1,6 @@
+
+// middleware for pagination, filteration and regEX expression.
+
 module.exports = (req, res, next) => {
     const { page = 1, limit = 3, q = '' } = req.query;
     req.context = {
